@@ -1,4 +1,4 @@
-package com.core.opperators;
+package com.core.operators;
 
 public class RelationalOperators {
 
