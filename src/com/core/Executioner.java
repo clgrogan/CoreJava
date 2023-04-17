@@ -2,6 +2,7 @@ package com.core;
 
 import com.core.command_line_args.CommandLineArguements;
 import com.core.command_line_args.ProductOfArguments;
+import com.core.flowcontrol.FlowControlAggragate;
 import com.core.flowcontrol.IfElse;
 import com.core.iteration.Switch;
 import com.core.nonstatic.Demo;
@@ -69,6 +70,9 @@ public class Executioner {
 		WrapperAndObject.main(noArgs);
 		
 		Switch.main(noArgs);
+		
+		miscArgs = new String[] {"Balance", "Change PIN", "Deposit", "", "Withdrawal"};
+		FlowControlAggragate.main(miscArgs);
 	}
 
 }
