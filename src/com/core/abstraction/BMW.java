@@ -1,6 +1,11 @@
 package com.core.abstraction;
 
-public abstract class BMW {
+public abstract class BMW implements Manufacturer{
+	final String s;
+	public BMW() {
+		this.s = "";
+		// TODO Auto-generated constructor stub
+	}
 	void commonFunct() {
 		System.out.println("commonFunc() method in BMW");
 	}
